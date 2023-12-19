@@ -1,3 +1,4 @@
+/*
 using System.Linq.Expressions;
 
 class SwitchstatementOPGAVE11 {
@@ -61,6 +62,4 @@ x2=(-b+Math.Sqrt(d))/(2*a);
       }
             } 
 
-
-
-
+*/
