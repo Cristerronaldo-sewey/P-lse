@@ -1,3 +1,4 @@
+/*
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,3 +27,4 @@ if (int1==int2)
 
  }
 
+*/
