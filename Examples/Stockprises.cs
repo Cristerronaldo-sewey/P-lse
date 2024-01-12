@@ -65,7 +65,7 @@ class Stockprices{
         value;
     
 
-        Console.WriteLine($"The names of the stocks: {string.Join(", ", stocknames)}");
+       
 
         for (int i = 0; i < stocknames.Length; i++)
         {
@@ -74,6 +74,7 @@ class Stockprices{
             for (int j = 0; j < stockprice.Length; j++)
             {
                 priceForStock[j] = stockprice[i];
+                 Console.WriteLine($"The names of the stocks: {i} is {stocknames[i]}");
             }
 
             int averagePrice = CalculateAverage(priceForStock);
