@@ -50,7 +50,16 @@ class Stockprices{
 //         }
             
       
-        string[] stocknames = { "stockA", "stockB", "stockC", "stockD", "stockE","stockF", "stockG", "stockH","stockI", "stockJ" };
+        string[] stocknames = { "stockA", 
+            "stockB", 
+            "stockC", 
+            "stockD", 
+            "stockE",
+            "stockF", 
+            "stockG", 
+            "stockH",
+            "stockI", 
+            "stockJ" };
         int[] value = { 2, 4, 5, 32, 23, 234, 2, 1, 0, 10 };
         int[] stockprice =
         value;
