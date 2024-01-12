@@ -50,7 +50,53 @@ class Stockprices{
 //         }
             
       
-        string[] stocknames = { "stockA", 
+//         string[] stocknames = { "stockA", 
+//             "stockB", 
+//             "stockC", 
+//             "stockD", 
+//             "stockE",
+//             "stockF", 
+//             "stockG", 
+//             "stockH",
+//             "stockI", 
+//             "stockJ" };
+//         int[] value = { 2, 4, 5, 32, 23, 234, 2, 1, 0, 10 };
+//         int[] stockprice =
+//         value;
+    
+
+        
+
+//         for (int i = 0; i < stocknames.Length; i++)
+//         {
+//             int[] priceForStock = new int[stockprice.Length];
+
+//             for (int j = 0; j < stockprice.Length; j++)
+//             {
+//                 priceForStock[j] = stockprice[i];
+//                 Console.WriteLine($"The names of the stocks: {i} is {stocknames[i]}");
+//             }
+
+//             int averagePrice = CalculateAverage(priceForStock);
+
+//             Console.WriteLine($"{stocknames[i]} - Average Price: {averagePrice}");
+//         }
+//     }
+
+//     static int CalculateAverage(int[] prices)
+//     {
+//         int sum = 0;
+
+//         foreach (int price in prices)
+//         {
+//             sum += price;
+//         }
+
+//         return sum / prices.Length;
+//     }
+// }
+
+      string[] stocknames = { "stockA", 
             "stockB", 
             "stockC", 
             "stockD", 
@@ -77,21 +123,8 @@ class Stockprices{
                  Console.WriteLine($"The names of the stocks: {i} is {stocknames[i]}");
             }
 
-            int averagePrice = CalculateAverage(priceForStock);
-
-            Console.WriteLine($"{stocknames[i]} - Average Price: {averagePrice}");
-        }
+          
     }
-
-    static int CalculateAverage(int[] prices)
-    {
-        int sum = 0;
-
-        foreach (int price in prices)
-        {
-            sum += price;
-        }
-
-        return sum / prices.Length;
-    }
+}
+   
 }
