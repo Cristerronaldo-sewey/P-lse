@@ -1,39 +1,39 @@
 
-class foreachTING
-{
+// class foreachTING
+// {
 
-    static void Main()
-    {
+//     static void Main()
+//     {
 
-string[] Majapengepung = {  
+// string[] Majapengepung = {  
     
-    "Time 1",
-    "Time 2",
-    "Time 3",
-    "Time 4"
-                        };
+//     "Time 1",
+//     "Time 2",
+//     "Time 3",
+//     "Time 4"
+//                         };
 
     
 
                     
 
-    int[] value = { 50, 150, 0, 100 };
-    int tider = 0;
+//     int[] value = { 50, 150, 0, 100 };
+//     int tider = 0;
     
      
 
-        Console.WriteLine("----------");
+//         Console.WriteLine("----------");
 
-    foreach (string pengepung in Majapengepung)
-        {
+//     foreach (string pengepung in Majapengepung)
+//         {
 
-            Console.WriteLine($"{pengepung} - Antal penge: {value[tider]}");
+//             Console.WriteLine($"{pengepung} - Antal penge: {value[tider]}");
 
-            tider++;
+//             tider++;
 
 
-        }   
-        Console.WriteLine("----------");
-    }
-}
+//         }   
+//         Console.WriteLine("----------");
+//     }
+// }
 
